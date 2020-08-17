@@ -47,5 +47,5 @@ try:
 	s.send("TRUN /.:/ "+buffer)
 	print (">>>>>>..DONE..<<<<<<")
 except:
-	print("NOT DUDE")
+	print("CONNECTION FAIL")
 
